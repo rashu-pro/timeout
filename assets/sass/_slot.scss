@@ -1,0 +1,36 @@
+.slot{
+  &-box{
+    text-decoration: none;
+    padding: .8rem .5rem;
+    border-radius: 0.4rem;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    opacity: 0.9;
+    transition: 0.2s all linear;
+    font-size: .9rem;
+
+    &:hover{
+      opacity: 1;
+      transform: translateY(-2px);
+      transition: 0.2s all linear;
+    }
+
+    @media (min-width: 768px) {
+      padding: 1.2rem .1rem;
+      font-size: 1.2rem;
+      margin-bottom: 1.6rem;
+    }
+
+
+  }
+}
+
+.section{
+  &-slot{
+    padding-bottom: 5rem;
+   @media (min-width: 992px) {
+     padding-bottom: 7rem;
+   }
+  }
+}

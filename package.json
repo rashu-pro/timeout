@@ -1,0 +1,27 @@
+{
+  "name": "timeout",
+  "version": "1.0.0",
+  "description": "turf booking site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass assets/sass:assets/css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashu-pro/timeout.git"
+  },
+  "keywords": [
+    "booking",
+    "turf",
+    "sports"
+  ],
+  "author": "rashu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashu-pro/timeout/issues"
+  },
+  "homepage": "https://github.com/rashu-pro/timeout#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
